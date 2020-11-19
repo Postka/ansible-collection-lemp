@@ -1,0 +1,9 @@
+---
+- hosts: all
+  remote_user: ubuntu
+  become: yes
+  roles:
+    - ../roles/ansible-role-mysql
+    - ../roles/ansible-role-php
+    - ../roles/ansible-role-nginx
+    - ../roles/ansible-role-wordpress
