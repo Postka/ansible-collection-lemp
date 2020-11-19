@@ -1,12 +1,12 @@
-[submodule "roles/ansible-role-php"]
-	path = roles/ansible-role-php
+[submodule "roles/php"]
+	path = roles/php
 	url = https://github.com/Postka/ansible-role-php.git
-[submodule "roles/ansible-role-mysql"]
-	path = roles/ansible-role-mysql
-	url = https://github.com/Postka/ansible-role-mysql.git
-[submodule "roles/ansible-role-wordpress"]
-	path = roles/ansible-role-wordpress
-	url = https://github.com/Postka/ansible-role-wordpress.git
-[submodule "roles/ansible-role-nginx"]
-	path = roles/ansible-role-nginx
+[submodule "roles/nginx"]
+	path = roles/nginx
 	url = https://github.com/Postka/ansible-role-nginx.git
+[submodule "roles/wordpress"]
+	path = roles/wordpress
+	url = https://github.com/Postka/ansible-role-wordpress.git
+[submodule "roles/mysql"]
+	path = roles/mysql
+	url = https://github.com/Postka/ansible-role-mysql.git
