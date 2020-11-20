@@ -42,4 +42,4 @@ jobs:
         uses: artis3n/ansible_galaxy_collection@v2
         with:
           api_key: '${{ secrets.GALAXY_API_KEY }}'
-          galaxy_version: '${{ steps.tag_version_galaxy.outputs.new_version }}'
+          galaxy_version: '${{ steps.tag_version.outputs.new_version }}'
